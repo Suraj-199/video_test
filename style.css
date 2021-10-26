@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+/* font-family: 'Cookie', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+/* font-family: 'Cinzel Decorative', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* font-family: 'Great Vibes', cursive; */
+/* for sub headings */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+/* for input boxes */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+/* for heading */
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+/* font-family: 'Emilys Candy', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+/* font-family: 'Elsie', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+/* font-family: 'Rye', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/* font-family: 'Cinzel', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+/* font-family: 'Nixie One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap');
+/* font-family: 'Elsie Swash Caps', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/* font-family: 'Poiret One', cursive; */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-family:'Montserrat';
+  text-align:center;
+  color:#fff;
+}
+span{
+  background:#FFF !important;
+}
+.fp-slidesNav.fp-bottom{
+  bottom:17px;
+  margin-left:1em !important;
+}
+.s5{
+  position: relative;
+}
+.map-wrapper{
+  padding: 1em 0 1em 0;
+  background-image: url('map-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.map-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.right-section{
+  width: 50%;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-section{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.map-container iframe{
+  width: 80%;
+  height: 350px;
+}
+.map-container h3{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid rgb(155, 45, 45);
+  color: #F4AF48;
+  margin: 0.2rem;
+  font-size: 24px;
+  font-family: 'Nixie One', cursive;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.left-section div p{
+  font-size: 26px;
+  padding: 1.2rem 0.7rem;
+  text-align: center;
+  color: #FAED91;
+  font-weight: bolder;
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+}
+.left-section div h3{
+  color: #F4AF48;
+}
+#second-para{
+  margin-top: -20px;
+}
+.line{
+  background-color: #EAAF38;
+  width: 80%;
+  margin: auto;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  height: 0.2rem;
+}
+#direction-header{
+  position: absolute;
+  top: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  /* font-family: 'Rye', cursive; */
+  font-family: 'Elsie Swash Caps', cursive;
+  font-weight: bolder;
+  color: #EAAF38;
+  letter-spacing: 3px;
+  font-size: 36px;
+  width: 100%;
+}
+
+/* start of media queries for setting images*/
+
+
+/* set desktop images here */
+@media only screen
+{
+.s1{
+  /* background:url('Resources/video.mp4');
+  background-image: url('Resources/video.mp4'); */
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.myVid{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: black; /* in case the video doesn't fit the whole page*/
+  /* background-image: url('Resources/video.mp4'); */
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover; /*cover video background */
+  z-index:3;
+}
+/* #vidTabL{
+  display: none;
+}
+#vidTapP{
+  display: none;
+}
+#vidPhone{
+  display: none;
+} */
+.s2{
+  background:url('Resources/D/2.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+#snd{
+    text-align:left;
+    margin-left:2em;
+    font-size:4rem;
+  }
+.s3{
+  background:url('Resources/D/3.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.s4{
+  background:url('Resources/D/4.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.s5{
+  background:url('Resources/D/map.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+
+}
+
+/* set phone images here */
+@media only screen and (max-width:500px){
+  .s1{
+  background:url('Resources/P/1.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+#vidDesktop{
+  display: none;
+}
+#vidTabL{
+  display: none;
+}
+#vidTabP{
+  display: none;
+}
+#vidPhone{
+  display: block;
+}
+.s2{
+  background:url('Resources/P/2.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+#snd{
+    text-align:left;
+    margin-left:2em;
+    font-size:4rem;
+  }
+.s3{
+  background:url('Resources/P/3.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.s4{
+  background:url('Resources/P/4.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.s5{
+  background:url('Resources/P/map.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+#gallery{
+  margin-bottom: -3px;
+}
+}
+
+/* set tablet portrait images here */
+@media only screen 
+  and (min-device-width: 768px) 
+   and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) 
+{
+  .s1{
+  background:url('Resources/TAB_P/1.png');
+
+  background-size:cover;
+  background-size: 100% 100%;
+}
+#vidDesktop{
+  display: hide;
+}
+#vidTabL{
+  display: hide;
+}
+#vidTabP{
+  display: block;
+}
+#vidPhone{
+  display: none;
+}
+.s2{
+  background:url('Resources/TAB_P/2.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+#snd{
+    text-align:left;
+    margin-left:2em;
+    font-size:4rem;
+  }
+.s3{
+  background:url('Resources/TAB_P/3.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.s4{
+  background:url('Resources/TAB_P/4.png');
+  background-size:cover;
+  background-size: 100% 100%;
+
+}
+.s5{
+  background:url('Resources/TAB_P/map.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+}
+
+/* set tablet landscape images here */
+@media only screen 
+  and (min-device-width: 640px) 
+   and (orientation:landscape)
+  and (-webkit-min-device-pixel-ratio: 1) 
+{
+  .s1{
+  background:url('Resources/TAB_L/1.png');
+  background-size:cover;
+  
+  background-size: 100% 100%;
+}
+#vidDesktop{
+  display: none;
+}
+#vidTabL{
+  display: block;
+}
+#vidTabP{
+  display: none;
+}
+#vidPhone{
+  display: none;
+}
+.s2{
+  background:url('Resources/TAB_L/2.png');
+  background-size:cover;
+  background-size: 100% 100%;
+  
+}
+#snd{
+    text-align:left;
+    margin-left:2em;
+    font-size:4rem;
+  }
+.s3{
+  background:url('Resources/TAB_L/3.png');
+  background-size:cover;
+  background-size: 100% 100%;
+
+}
+.s4{
+  background:url('Resources/TAB_L/4.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.s5{
+  background:url('Resources/TAB_L/map.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+
+}
+
+
+/* set desktop images here too*/
+@media only screen 
+  and (min-width: 1200px)
+{
+
+.s1{
+  /* background:url('Resources/video.mp4');
+  background-image: url('Resources/video.mp4'); */
+  background-size:cover;
+  background-size: 100% 100%;
+}
+#vidDesktop{
+  display: block;
+}
+#vidTabL{
+  display: none;
+}
+#vidTabP{
+  display: none;
+}
+#vidPhone{
+  display: none;
+}
+.s2{
+  background:url('Resources/D/2.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+#snd{
+    text-align:left;
+    margin-left:2em;
+    font-size:4rem;
+  }
+.s3{
+  background:url('Resources/D/3.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.s4{
+  background:url('Resources/D/4.png');
+  background-size:cover;
+  background-size: 100% 100%;
+}
+.s5{
+  background:url('Resources/D/map.png');   /* change background of map here */
+  background-size:cover;
+  background-size: 100% 100%;
+}
+
+}
+/* end of media queries for setting images */
+
+/* Media queries for responsiveness */
+
+/* for desktop and laptop */
+@media screen and (min-width: 1400px){
+  .map-container{
+    padding: 0 5rem;
+  }
+  .right-section iframe{
+    width: 100%;
+    height: 50vh;
+  }
+  #direction-header{
+    position: absolute;
+    top: -15%;
+    font-size: 50px;
+    letter-spacing: 0.3em;
+  }
+  .left-section div p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+/* for large size tablets */
+@media screen and (min-width: 1200px){
+  .map-container{
+    padding: 0 5rem;
+  }
+  .right-section iframe{
+    width: 100%;
+    height: 50vh;
+  }
+  #direction-header{
+    position: absolute;
+    top: -15%;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+  }
+  .left-section div p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+/* for ipad pro portrait mode  */   
+@media screen and (max-width: 1024px) and (orientation: portrait){
+  p{
+    line-height: 2em;
+  }
+  .map-container{
+    flex-direction: column;
+  }
+  .map-container > div{
+    width: 100%;
+  }
+  .background-style{
+    padding: 2.5rem;
+  }
+  .right-section iframe{
+    height: 40vh;
+    width: 85%;
+  }
+  .right-section{
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+  }
+  #direction-header{
+    top: -3%;
+    font-size: 70px;
+  }
+  .background-style div h3{
+    font-size: 36px;
+  }
+  .background-style div p{
+    font-size: 40px;
+    line-height: 1.5em;
+  } 
+}
+/* for ipad landscape mode */
+@media screen and (max-width: 1024px) and (orientation: landscape){
+
+  .map-container{
+    padding: 0 3rem;
+  }
+  .right-section iframe{
+    width: 100%;
+  }
+  #direction-header{
+    position: absolute;
+    top: -10%;
+    font-size: 65px;
+    letter-spacing: 0.1em;
+  }
+  .background-style{
+    padding: 1rem 0;
+  }
+  .left-section div p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+  }
+}
+
+/* for ipad portrait mode */
+@media screen and (max-width: 768px) and (orientation: portrait){
+  .map-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+  }
+  #direction-header{
+    position: absolute;
+    top: -5%;
+  }
+  .left-section{
+    width: 100%;
+  }
+  .right-section{
+    width:100%;
+    margin-top: 0;
+  }
+  .left-section div p{
+    font-size: 26px;
+  }
+  .background-style div p{
+    font-size: 26px;
+  }
+  .map-container iframe{
+    width: 80%;
+    height: 40vh;
+  }
+  .background-style{
+    margin-bottom: 3.5rem;
+    padding: 1rem;
+    width: 70%;
+  }  
+}
+
+/* for smartphones */
+@media screen and (max-width: 480px){
+  .map-container{
+    padding: 0;
+    height: 80vh;
+  }
+  #direction-header{
+    top: 3%;
+  } 
+  .background-style{
+    margin: 0;
+    padding: 0;
+    width: 95%;
+  }
+  .background-style div h3{
+    font-size: 20px;
+  }
+  .left-section div p{
+    font-size: 16px;
+  }
+  .left-section{
+    height: 30vh;
+  }
+  .right-section iframe{
+    height: 42vh;
+    width: 100%;
+  }
+  .right-section{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 1%;
+  }
+  .left-section{
+    margin-top: 0;
+    position: absolute;
+    top: 12%;
+  }
+  #direction-header{
+    font-size: 40px;
+  }
+  .background-style div h3{
+    font-size: 20px;
+    padding: 0.3rem;
+  }
+  .background-style div p{
+    margin: 0;
+    padding: 1rem;
+  }
+}
+/* for smartphone (iphone 4,5,SE..) */
+@media screen and (max-width: 350px){
+  #direction-header{
+    top: 5%;
+  } 
+  #direction-header{
+    font-size: 28px;
+  }
+  .background-style div h3{
+    font-size: 16px;
+  }
+  .background-style div p{
+    font-size: 14px;
+  }
+  .left-section div p{
+    line-height: 1.3rem;
+  }
+  .background-style{
+    padding: 0;
+  }
+  .background-style{
+    padding: 0;
+    margin: 0;
+  }
+  .left-section{
+    top: 15%;
+  }
+  .background-style div h3{
+    font-size: 20px;
+    padding: 0.3rem;
+  }
+  .background-style div p{
+    margin: 0;
+    padding: 1rem;
+  }
+  .right-section iframe{
+    height: 42vh; 
+    width: 100%;
+  }
+  .right-section{
+    padding-bottom: 2em;
+  }
+}
+
+/* for phone landscape mode */
+@media screen and (max-width: 992px) and (orientation: landscape){
+
+  .map-container{
+    padding: 0 3rem;
+  }
+  .right-section iframe{
+    width: 100%;
+  }
+  #direction-header{
+    position: absolute;
+    top: 2%;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+  }
+  .background-style{
+    padding: 1rem 0;
+  }
+  .left-section div p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+
+  .right-section iframe{
+    height: 50vh; 
+  }
+}
+/*end of media queries */
+
+
+
+
+
