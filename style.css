@@ -167,7 +167,7 @@ span{
   display: none;
 } */
 .s2{
-  background:url('Resources/D/2.png');
+  /*background:url('Resources/D/2.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -177,17 +177,17 @@ span{
     font-size:4rem;
   }
 .s3{
-  background:url('Resources/D/3.png');
+  /*background:url('Resources/D/3.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
 .s4{
-  background:url('Resources/D/4.png');
+  /*background:url('Resources/D/4.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
 .s5{
-  background:url('Resources/D/map.png');
+  /*background:url('Resources/D/map.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -197,7 +197,7 @@ span{
 /* set phone images here */
 @media only screen and (max-width:500px){
   .s1{
-  background:url('Resources/P/1.png');
+  /*background:url('Resources/P/1.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -214,7 +214,7 @@ span{
   display: block;
 }
 .s2{
-  background:url('Resources/P/2.png');
+  /*background:url('Resources/P/2.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -224,17 +224,17 @@ span{
     font-size:4rem;
   }
 .s3{
-  background:url('Resources/P/3.png');
+ /* background:url('Resources/P/3.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
 .s4{
-  background:url('Resources/P/4.png');
+  /*background:url('Resources/P/4.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
 .s5{
-  background:url('Resources/P/map.png');
+  /*background:url('Resources/P/map.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -250,7 +250,7 @@ span{
   and (-webkit-min-device-pixel-ratio: 1) 
 {
   .s1{
-  background:url('Resources/TAB_P/1.png');
+  /*background:url('Resources/TAB_P/1.png');*/
 
   background-size:cover;
   background-size: 100% 100%;
@@ -268,7 +268,7 @@ span{
   display: none;
 }
 .s2{
-  background:url('Resources/TAB_P/2.png');
+ /* background:url('Resources/TAB_P/2.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -278,18 +278,18 @@ span{
     font-size:4rem;
   }
 .s3{
-  background:url('Resources/TAB_P/3.png');
+  /*background:url('Resources/TAB_P/3.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
 .s4{
-  background:url('Resources/TAB_P/4.png');
+  /*background:url('Resources/TAB_P/4.png');*/
   background-size:cover;
   background-size: 100% 100%;
 
 }
 .s5{
-  background:url('Resources/TAB_P/map.png');
+ /* background:url('Resources/TAB_P/map.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -302,7 +302,7 @@ span{
   and (-webkit-min-device-pixel-ratio: 1) 
 {
   .s1{
-  background:url('Resources/TAB_L/1.png');
+ /* background:url('Resources/TAB_L/1.png');*/
   background-size:cover;
   
   background-size: 100% 100%;
@@ -320,7 +320,7 @@ span{
   display: none;
 }
 .s2{
-  background:url('Resources/TAB_L/2.png');
+ /* background:url('Resources/TAB_L/2.png');*/
   background-size:cover;
   background-size: 100% 100%;
   
@@ -331,18 +331,18 @@ span{
     font-size:4rem;
   }
 .s3{
-  background:url('Resources/TAB_L/3.png');
+  /*background:url('Resources/TAB_L/3.png');*/
   background-size:cover;
   background-size: 100% 100%;
 
 }
 .s4{
-  background:url('Resources/TAB_L/4.png');
+  /*background:url('Resources/TAB_L/4.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
 .s5{
-  background:url('Resources/TAB_L/map.png');
+ /* background:url('Resources/TAB_L/map.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -374,7 +374,7 @@ span{
   display: none;
 }
 .s2{
-  background:url('Resources/D/2.png');
+  /*background:url('Resources/D/2.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
@@ -384,17 +384,17 @@ span{
     font-size:4rem;
   }
 .s3{
-  background:url('Resources/D/3.png');
+ /* background:url('Resources/D/3.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
 .s4{
-  background:url('Resources/D/4.png');
+  /*background:url('Resources/D/4.png');*/
   background-size:cover;
   background-size: 100% 100%;
 }
 .s5{
-  background:url('Resources/D/map.png');   /* change background of map here */
+ /* background:url('Resources/D/map.png');   /* change background of map here */
   background-size:cover;
   background-size: 100% 100%;
 }
